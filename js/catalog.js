@@ -22,6 +22,8 @@ function handleSubmit(event) {
 
 
   // TODO: Prevent the page from reloading
+  event.preventDefault();
+
 
   // Do all the things ...
   addSelectedItemToCart();
