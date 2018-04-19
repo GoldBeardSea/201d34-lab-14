@@ -20,7 +20,12 @@ function populateForm() {
 function handleSubmit(event) {
 
   // TODO: Prevent the page from reloading
+  event.preventDefault();
+  console.log('test')
+  //event.target.items.value will equal itemname
+  //event.target.quantity.value will equal value put into input
 
+  
   // Do all the things ...
   addSelectedItemToCart();
   saveCartToLocalStorage();
