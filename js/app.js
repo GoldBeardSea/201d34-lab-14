@@ -12,7 +12,7 @@ Cart = function(item, quantity) {
 };
 Cart.cartItems = [];
 
-// Product Contructor
+// Product Constructor
 var Product = function(filePath, name) {
   this.filePath = filePath;
   this.name = name;
